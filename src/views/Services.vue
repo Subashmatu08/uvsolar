@@ -1,16 +1,15 @@
 <template>
   <NavBar />
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <div class="opening"></div>
+  <h1>Services</h1>
   <Footer />
-  <GoTop />
+  <go-top />
 </template>
 
 <script>
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import GoTop from "../components/GoTop";
+import GoTop from "../components/GoTop.vue";
 export default {
   components: {
     NavBar,
